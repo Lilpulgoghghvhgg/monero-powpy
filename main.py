@@ -141,7 +141,7 @@ def worker(q, s):
         while 1:
             bin = pack_nonce(blob, nonce)
             if cnv > 5:
-                hash = pyrx.get_rx_hash(bin, seed_hash, height)
+                hash = pyrx(bin, seed_hash, height)
             else:
                 hash = pycryptonight.cn_slow_hash(bin, cnv, 0, height)
             hash_count += 1

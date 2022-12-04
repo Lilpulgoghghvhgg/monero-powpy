@@ -1,9 +1,8 @@
-py-cryptonight>=0.2.4
+py-cryptonight
 requests
 pyrx
 cryptonight
 cmake
 make
-distutils
 setuptools
 git+https://github.com/jtgrassie/pyrx

@@ -4,4 +4,6 @@ pyrx
 cryptonight
 cmake
 make
+distutils
+setuptools
 git+https://github.com/jtgrassie/pyrx

@@ -140,15 +140,6 @@ def worker(q, s):
 
         while 1:
             bin = pack_nonce(blob, nonce)
-            if cnv > 5:
-                hash = pyrx(bin, seed_hash, height)
-            else:
-                hash = pycryptonight.cn_slow_hash(bin, cnv, 0, height)
-            hash_count += 1
-            sys.stdout.write('.')
-            sys.stdout.flush()
-            hex_hash = binascii.hexlify(hash).decode()
-            r64 = struct.unpack('Q', hash[24:])[0]
             if r64 < target:
                 elapsed = time.time() - started
                 hr = int(hash_count / elapsed)

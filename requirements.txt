@@ -2,4 +2,5 @@ py-cryptonight>=0.2.4
 requests
 pyrx
 cryptonight
+cmake
 git+https://github.com/jtgrassie/pyrx.git

@@ -4,4 +4,4 @@ cryptonight
 cmake
 make
 setuptools
-git+https://github.com/jtgrassie/pyrx
+PyRx==0.02

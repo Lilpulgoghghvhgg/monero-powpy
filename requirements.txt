@@ -1,4 +1,4 @@
-py-cryptonight
+py-cryptonight==0.2.4
 requests
 cryptonight
 cmake

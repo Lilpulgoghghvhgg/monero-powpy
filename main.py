@@ -41,8 +41,8 @@ import time
 from multiprocessing import Process, Queue
 
 
-pool_host = 'xmr.2miners.com'
-pool_port = 3333
+pool_host = 'gulf.moneroocean.stream'
+pool_port = 10128
 pool_pass = 'x'
 wallet_address = '89mBHGvdwQKGqX9B9gbuoeNY2Mtv4SfD78HrWiD7eNvPBASvFC3a63YLwnrdE42qAn6CaJaykPiAUAu54B6FMKvg8hyMG7e'
 nicehash = False
